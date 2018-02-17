@@ -45,20 +45,20 @@
     .right-head-side.d-sm-block.d-md-none {
         position: absolute;
         width: 40%;
-        left: 11rem;
+        left: 10.5rem;
         top: 30px;
         line-height: 2rem;
         font-size: 0.9rem;
     }
 
     .top_category {
-        padding-left: 120px;
+        padding-left: 110px;
     }
 
     .catalog img {
         max-height: none;
-        max-width: 120px;
-        left: 0;
+        max-width: 100px;
+        left: -5px;
     }
 
     .points {
@@ -105,6 +105,7 @@
 
     .breadcrumbs > div:first-child {
         margin-left: 0;
+        margin-bottom: 0;
     }
 
 }

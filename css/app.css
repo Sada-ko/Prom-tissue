@@ -60,7 +60,7 @@ h2 {
 /* Not required for template or sticky footer method. */
 
 body > .container {
-    padding: 60px 15px 0;
+    /*padding: 60px 15px 0;*/
 }
 
 .footer > .container {
@@ -101,7 +101,7 @@ main{
 
 /* ====== Header ====== */
 header {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 #logotype {
@@ -516,13 +516,14 @@ table.table{
 
 .breadcrumbs {
     margin-left: 18rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     max-width: 620px;
     width: 50%;
 }
 
 .breadcrumbs > div{
     display: inline-block;
+    margin-bottom: .5rem;
 }
 
 .breadcrumbs > div:before{

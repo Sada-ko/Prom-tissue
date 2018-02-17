@@ -94,9 +94,9 @@ a.text-dark:hover {
     border-bottom-color: rgba(184, 19, 18, .5);
 }
 
-main{
-    margin-bottom: 5rem;
-}
+/*main{*/
+    /*margin-bottom: 3rem;*/
+/*}*/
 
 
 /* ====== Header ====== */
@@ -412,6 +412,7 @@ ul.category li{
 
 .col.basic {
     margin-left: 16rem;
+    margin-bottom: 3rem;
 }
 
 table.image tr,
@@ -481,9 +482,12 @@ table.table{
 .points {
     padding-bottom: 30px;
     /*margin-top: 20px;*/
-    padding-left: 4rem;
     text-align: center;
+}
+
+.points .row{
     padding-right: 3rem;
+    padding-left: 4rem;
 }
 
 .points svg {
@@ -496,7 +500,7 @@ table.table{
     /*color: rgb(184, 19, 18);*/
 /*}*/
 
-.points > div{
+.points .point {
     text-align: left;
 }
 

@@ -1,6 +1,11 @@
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767px) {
 
+    .animated-logo{
+        height: 75px;
+        margin-left: -80px;
+    }
+
     #logotype {
         letter-spacing: 6px;
         width: 9rem;

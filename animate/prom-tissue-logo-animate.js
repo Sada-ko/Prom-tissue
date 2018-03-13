@@ -194,21 +194,13 @@ p.nominalBounds = new cjs.Rectangle(-2,-66.5,4,130);
 
 	// frame
 	this.shape_10 = new cjs.Shape();
-	this.shape_10.graphics.f().s("#343A40").ss(4,1,0,3).p("A0OmtMAodAAAIAANbMgodAAA");
-	this.shape_10.setTransform(124.5,43);
+	this.shape_10.graphics.f("#FFFFFF").s().p("A0CGZIAAsxMAoFAAAIAAMxg");
+	this.shape_10.setTransform(123.3,43);
 
-	this.shape_11 = new cjs.Shape();
-	this.shape_11.graphics.f().s("#000000").ss(1,1,0,3,true).p("AAAGuIAAtb");
-	this.shape_11.setTransform(-5,43);
-
-	this.shape_12 = new cjs.Shape();
-	this.shape_12.graphics.f("#FFFFFF").s().p("A0OGuIAAtbMAodAAAIAANbg");
-	this.shape_12.setTransform(124.5,43);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_12},{t:this.shape_11},{t:this.shape_10}]}).wait(38));
+	this.timeline.addTween(cjs.Tween.get(this.shape_10).wait(38));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-7,-2,263,90);
+p.nominalBounds = new cjs.Rectangle(-5,2.1,256.6,81.8);
 
 
 // stage content:
@@ -227,13 +219,24 @@ p.nominalBounds = new cjs.Rectangle(-7,-2,263,90);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
-	// text
+	// base
 	this.base = new lib.Symbol1();
 	this.base.parent = this;
 	this.base.setTransform(127,45,1,1,0,0,0,127,43);
 	new cjs.ButtonHelper(this.base, 0, 1, 2, false, new lib.Symbol1(), 3);
 
 	this.timeline.addTween(cjs.Tween.get(this.base).wait(1));
+
+	// Layer 1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(1,1,0,3,true).p("AAAGuIAAtb");
+	this.shape.setTransform(-5,45);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f().s("#343A40").ss(4,1,0,3).p("A0OmtMAodAAAIAANbMgodAAA");
+	this.shape_1.setTransform(124.5,45);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(121,-3.2,263,138.3);

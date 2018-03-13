@@ -100,6 +100,16 @@ a.text-dark:hover {
 
 
 /* ====== Header ====== */
+.animated-logo{
+    margin-left: -1rem;
+    height: 90px;
+}
+
+.animated-logo iframe{
+    width: 100%;
+    height: 100%;
+}
+
 header {
     margin-bottom: 1.5rem;
 }

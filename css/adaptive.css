@@ -111,14 +111,14 @@
         margin-bottom: 3rem;
     }
 
-    .breadcrumbs {
+    .kama_breadcrumbs {
         margin-left: 0;
         max-width: none;
         width: 100%;
         padding: 0 30px;
     }
 
-    .breadcrumbs > div:first-child {
+    .kama_breadcrumbs > div:first-child {
         margin-left: 0;
         margin-bottom: 0;
     }

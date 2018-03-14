@@ -6,16 +6,18 @@
         margin-left: -80px;
     }
 
-    #logotype {
-        letter-spacing: 6px;
-        width: 9rem;
+    #logotype,
+    #logotype::after{
         margin-left: -1rem;
-        border: 3px solid black;
-        border-left: none;
-        height: 75px;
-        padding-left: 10px;
-        font-size: 18px;
-        line-height: 23px;
+        height: 70px;
+        background-size: cover;
+        background-position: right;
+        width: 145px;
+    }
+
+    #logotype::after{
+        margin-left: 0;
+        display: none;
     }
 
     #logotype > div {
@@ -154,6 +156,9 @@
 
 /*Large devices (desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+    .search-slogan{
+        margin-left: 10%;
+    }
 }
 
 /*Large devices (desktops, 1400px and up)*/
@@ -162,4 +167,11 @@
 
 /*Large devices (desktops, 1580px and up)*/
 @media (min-width: 1579px) {
+    .search-form {
+        max-width: 650px;
+    }
+
+    .search-slogan{
+        margin-left: 15%;
+    }
 }

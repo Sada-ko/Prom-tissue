@@ -17,11 +17,10 @@
     <link href="css/app.css" rel="stylesheet">
     <link href="css/adaptive.css" rel="stylesheet">
 
-    <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-
     <!--font-awesome-->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--load everything-->
+    <script defer src="js/fontawesome-all.js"></script>
+
 
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -41,17 +40,7 @@
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-light bg-light d-flex align-items-start">
 
-        <!--<a href="#" class="align-top d-flex" id="logotype">-->
-
-            <!--<div>-->
-                <!--Prom Tissue-->
-            <!--</div>-->
-
-        <!--</a>-->
-
-        <div class="animated-logo">
-            <iframe src="animate/prom-tissue-logo-animate.html" frameborder="0"></iframe>
-        </div>
+        <a href="#" class="align-top d-flex border-0" id="logotype"></a>
 
         <div class="right-head-side d-sm-block d-md-none text-left">
             <i class="fas fa-pencil-alt fa-sm" data-fa-transform="grow-2 down-6"></i>
@@ -77,6 +66,7 @@
 
                 <form class="form-inline search-form d-flex flex-nowrap mt-md-0" method="get"
                       action="/catalog/">
+                    <i class="far fa-search search-icon" data-fa-transform="grow-2"></i>
                     <input class="form-control" type="text"
                            placeholder="Поиск по каталогу"
                            name="fields_filter[name]">
@@ -85,13 +75,13 @@
 
                 <div class="menu">
                     <div class="productors">
-                        <i class="fas fa-tags"></i>
+                        <i class="far fa-tags fa-lg"></i>
                         <a class="text-dark" href="#">
                             Производители
                         </a>
                     </div>
                     <div class="contacts">
-                        <i class="fas fa-map"></i>
+                        <i class="far fa-map-signs fa-lg"></i>
                         <a class="text-dark" href="contacts.html">
                             Контакты
                         </a>
@@ -326,28 +316,28 @@
         <div class="row m-0">
 
             <div class="point col-6 col-lg-3">
-                <i class="fas fa-envelope-open fa-2x mr-3"></i>
+                <i class="fal fa-envelope-open fa-2x mr-3" data-fa-transform="up-2"></i>
                 <!--<a class="text-dark" href="#">-->
                 Отзывы клиентов
                 <!--</a>-->
             </div>
 
             <div class="point col-6 col-lg-3">
-                <i class="fas fa-truck fa-2x mr-3"></i>
+                <i class="fal fa-dolly-flatbed-alt fa-2x mr-3" data-fa-transform="up-2"></i>
                 <!--<a class="text-dark" href="#">-->
                 Бесплатная доставка
                 <!--</a>-->
             </div>
 
             <div class="point col-6 col-lg-3">
-                <i class="fas fa-credit-card fa-2x mr-3"></i>
+                <i class="fal fa-credit-card fa-2x mr-3" data-fa-transform="up-2"></i>
                 <!--<a class="text-dark" href="#">-->
                 Различные способы оплаты
                 <!--</a>-->
             </div>
 
             <div class="point col-6 col-lg-3">
-                <i class="fas fa-shield-alt fa-2x mr-3"></i>
+                <i class="fal fa-shield-check fa-2x mr-3" data-fa-transform="up-2"></i>
                 <!--<a class="text-dark" href="#">-->
                 Гарантия на возврат и обслуживание
                 <!--</a>-->

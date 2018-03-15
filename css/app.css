@@ -385,12 +385,12 @@ header .right-head-side {
 .carousel .carousel-item .container::before{
     border-left: 6px dotted white;
     display: block;
-    height: 350px;
+    height: 340px;
     width: 1px;
     background-color: transparent;
     content: "";
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 245px;
     z-index: 1;
 }
@@ -447,7 +447,8 @@ header .right-head-side {
 }
 
 .catalog img {
-    max-height: 140px;
+    /*max-height: 140px;*/
+    max-width: 230px;
     position: absolute;
     z-index: -1;
     left: -30px;

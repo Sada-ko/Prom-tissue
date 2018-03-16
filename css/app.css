@@ -356,10 +356,21 @@ header .right-head-side {
     margin-bottom: 2rem;
 }
 
+.carousel a{
+    color: white;
+    border-bottom-color: rgba(255, 255, 255, .5);
+}
+
+.carousel a:hover{
+    color: rgb(184, 19, 18);
+    border-bottom-color: rgba(184, 19, 18, .5);
+}
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     bottom: 3rem;
     z-index: 10;
+    padding-bottom: 0;
 }
 
 /* Declare heights because of positioning of img element */
@@ -413,8 +424,10 @@ header .right-head-side {
     z-index: 0;
 }
 
-.carousel h1{
-    margin-bottom: .5rem;
+.carousel h2{
+    /*margin-bottom: .5rem;*/
+    font-weight: 500;
+    font-size: 2.2rem;
 }
 
 

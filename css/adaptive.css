@@ -173,6 +173,14 @@
 
 /*Large devices (desktops, 1580px and up)*/
 @media (min-width: 1579px) {
+    .carousel .carousel-item .carousel-caption {
+        left: 20%;
+    }
+
+    .carousel .carousel-item .container::before {
+        left: 19%;
+    }
+
     .search-form {
         max-width: 650px;
     }

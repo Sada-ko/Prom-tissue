@@ -26,17 +26,26 @@
         border: none;
     }
 
+    a#logotype:hover::after {
+        opacity: 0;
+    }
+
     .carousel .carousel-item .container::before {
         display: none;
     }
 
     .carousel .carousel-item .carousel-caption {
-        left: 70px;
+        left: 12%;
+        right: 10%;
         padding-left: 0;
     }
 
-    .carousel h1{
-        font-size: 2rem;
+    .carousel-control-prev, .carousel-control-next {
+        width: 12%;
+    }
+
+    .carousel-item {
+        height: 400px;
     }
 
     .search-slogan {
@@ -136,6 +145,10 @@
         margin-bottom: 0;
     }
 
+    .pearl-loop {
+        background-size: cover;
+    }
+
 }
 
 /*Large devices (desktops, less than 1200px)*/
@@ -156,6 +169,10 @@
 
     .search-slogan {
         width: 50%;
+    }
+
+    .carousel h2{
+        font-size: 2.2rem;
     }
 
 }

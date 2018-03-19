@@ -134,10 +134,10 @@
     }
 
     .kama_breadcrumbs {
-        margin-left: 0;
-        max-width: none;
-        width: 100%;
-        padding: 0 30px;
+        /*margin-left: 0;*/
+        /*max-width: none;*/
+        /*width: 100%;*/
+        /*padding: 0 30px;*/
     }
 
     .kama_breadcrumbs > div:first-child {
@@ -201,8 +201,17 @@
     .search-form {
         max-width: 650px;
     }
+}
+
+/*Large devices (desktops, 1600px and up)*/
+@media (min-width: 1599px) {
+
+    #logotype{
+        position: absolute;
+    }
 
     .search-slogan{
-        margin-left: 15%;
+        margin-left: 0;
     }
+
 }

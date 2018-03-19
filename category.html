@@ -21,7 +21,8 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 
     <!--font-awesome-->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--load everything-->
+    <script defer src="js/fontawesome-all.js"></script>
 
 </head>
 
@@ -33,13 +34,7 @@
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-light bg-light d-flex align-items-start">
 
-        <a href="index.html" class="align-top d-flex" id="logotype">
-
-            <div>
-                Prom Tissue
-            </div>
-
-        </a>
+        <a href="#" class="align-top d-flex border-0" id="logotype"></a>
 
         <div class="right-head-side d-sm-block d-md-none text-left">
             <i class="fas fa-pencil-alt fa-sm" data-fa-transform="grow-2 down-6"></i>
@@ -56,34 +51,38 @@
 
         <div class="collapse navbar-collapse" id="navbarsExample04">
 
-            <div class="search-slogan d-md-none d-lg-block">
+            <div class="container">
 
-                <div class="slogan font-italic small d-none d-md-block">
-                    Эксперт в&nbsp;области оборудования для производства и&nbsp;упаковки
-                    изделий гигиены.
-                </div>
+                <div class="search-slogan d-md-none d-lg-block">
 
-                <form class="form-inline search-form d-flex flex-nowrap mt-md-0" method="get"
-                      action="/catalog/">
-                    <input class="form-control" type="text"
-                           placeholder="Поиск по каталогу"
-                           name="fields_filter[name]">
-                    <button value="Найти" class="submit" type="submit">Найти</button>
-                </form>
-
-                <div class="menu">
-                    <div class="productors">
-                        <i class="fas fa-tags"></i>
-                        <a class="text-dark" href="#">
-                            Производители
-                        </a>
+                    <div class="slogan font-italic small d-none d-md-block">
+                        Эксперт в&nbsp;области оборудования для производства и&nbsp;упаковки
+                        изделий гигиены.
                     </div>
-                    <div class="contacts">
-                        <i class="fas fa-map"></i>
-                        <a class="text-dark" href="contacts.html">
-                            Контакты
-                        </a>
+
+                    <form class="form-inline search-form d-flex flex-nowrap mt-md-0" method="get"
+                          action="/catalog/">
+                        <input class="form-control" type="text"
+                               placeholder="Поиск по каталогу"
+                               name="fields_filter[name]">
+                        <button value="Найти" class="submit" type="submit">Найти</button>
+                    </form>
+
+                    <div class="menu">
+                        <div class="productors">
+                            <i class="fas fa-tags"></i>
+                            <a class="text-dark" href="#">
+                                Производители
+                            </a>
+                        </div>
+                        <div class="contacts">
+                            <i class="fas fa-map"></i>
+                            <a class="text-dark" href="contacts.html">
+                                Контакты
+                            </a>
+                        </div>
                     </div>
+
                 </div>
 
             </div>
@@ -99,21 +98,23 @@
         </div>
     </nav>
 
-    <div class="breadcrumbs small" aria-label="breadcrumb">
+</header>
+
+<!-- Begin page content -->
+<main class="container-fluid row mx-0">
+
+
+    <div class="kama_breadcrumbs small container" aria-label="breadcrumb">
         <div><a href="#">
-            <i class="fas fa-cart-arrow-down fa-lg" data-fa-transform="down-2"></i> К
+            <i class="far fa-book" data-fa-transform="down-3 shrink-3"></i> К
             каталогу</a></div>
         <div><a href="#">Оборудование</a></div>
         <div><a href="#">Оборудование пятое-десятое, такое-сякое</a></div>
         <div>401BA — Электрический транспортировщик валов</div>
     </div>
 
-</header>
 
-<!-- Begin page content -->
-<main class="container-fluid row mx-0">
-
-    <div class="col basic container-fluid">
+    <div class="basic container">
 
         <h1>Оборудование для Тиссью</h1>
         <ul class="inner_menu small">
